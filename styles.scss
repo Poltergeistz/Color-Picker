@@ -1,0 +1,17 @@
+$rgb: rgb(255,255,255);
+.rgb{
+    color: $rgb;
+}
+$red:red($rgb);
+$green:green($rgb);
+$blue:blue($rgb);
+/* .rgbDisplay{
+    red:$red;
+    green:$green;
+    blue:$blue;
+}
+$rgba:rgba(220,40,39,1); */
+
+body{
+    background: color($rgb);
+}

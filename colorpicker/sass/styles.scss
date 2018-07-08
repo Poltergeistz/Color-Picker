@@ -1,0 +1,8 @@
+@import 'compass';
+$red: attr(value);
+$green: attr(value);
+$blue: attr(value);
+
+div{
+    background: $blue, $green, $red;
+}
